@@ -1,0 +1,77 @@
+
+https://technostacks.com/blog/react-best-practices/
+https://www.toptal.com/react/tips-and-practices
+
+performance, scalability, reliability
+CSS in JS, props.children
+dangerouslySetInnerHTML.
+Utilisation of the tools, snippet libraries
+tools and methods for scaling React projects.
+
+(1) Create Tiny Components That Just Do One Thing.
+  Keep your components small.
+
+  Small components are easier to read, test, maintain, and reuse
+
+  CartComponent
+
+  CartListComponent
+  CartItemComponent
+
+  Button Component 
+        checkout
+        update cart
+        Remove
+        Continue Shopping
+
+(2) Create a new base react application structure
+use the NPM command ‘create-react-app.’ 
+
+(3) Consolidation of duplicated code serves as one of the react js best practices.
+ A common rule for all code is keeping it brief and concise. The best way to avoid duplication is following Don’t Repeat Yourself (DRY)
+
+ (4) Higher-Order Components (HOC)
+
+ (5) Using capitals for component names
+ SelectButton instead of the select button
+
+ (6) Writing tests for all code.
+
+ (7) linting
+
+ (8) turnery operator
+
+ (9) custom hooks
+
+ (10) components are composable
+
+ (11) components are unit testable. They are units.
+
+ (12) Components are reusable.
+
+ (13) Consolidation of duplicate code
+ Don’t Repeat Yourself (DRY). 
+
+ Delete Redundant code 
+
+ (14) Presentation component
+ Container Component    - How things works?
+                        - state
+                        - several lifecycle methods
+
+ (15) File organization
+
+ In React, your file structure will grow rapidly.
+
+ Maintain a helpers folder to put other files for any kind of file for functionalities.
+  Keep all the files related to a component into one folder.
+
+(16) When creating an array of JSX elements react requires you to add a key prop to your element.
+ This is commonly done using a map function which in
+
+(17) use <></>
+
+(18) use arrow functions
+
+
+
